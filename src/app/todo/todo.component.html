@@ -1,0 +1,7 @@
+<p>todo works!</p>
+<h1>To do list</h1>
+<p>todo-add works!</p>
+<input type="text" [(ngModel)]="todoItem">
+<button (click)="addToTodoList()">Add to Todo List</button>
+<li *ngFor="let myTodoItem of todoList">{{myTodoItem}}</li>
+
