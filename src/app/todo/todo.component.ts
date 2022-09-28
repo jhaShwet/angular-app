@@ -11,10 +11,13 @@ export class TodoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  todoItem :string='';
-  todoList :string[]=[];
-  addToTodoList=()=>{
-    this.todoList.push(this.todoItem)
-    this.todoItem=''
+    a=0;
+    b=0;
+    c=0;
+    add=()=>{
+      this.c=this.a+this.b;
+    }
+    sub=()=>{
+      this.c=this.a-this.b;
+    }
   }
-}

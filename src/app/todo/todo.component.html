@@ -1,7 +1,7 @@
-<p>todo works!</p>
-<h1>To do list</h1>
-<p>todo-add works!</p>
-<input type="text" [(ngModel)]="todoItem">
-<button (click)="addToTodoList()">Add to Todo List</button>
-<li *ngFor="let myTodoItem of todoList">{{myTodoItem}}</li>
-
+<h1>Calculator</h1><i>
+<h2>Operations</h2>
+<p>Enter first no:-<br><input type="number" [(ngModel)]="a"></p><br>
+<p>Enter second no:-<br><input type="number" [(ngModel)]="b"></p><br>
+<h1><button (click)="add()">+</button></h1>
+<h1><button (click)="sub()">-</button></h1>
+<h2>Answer: {{c}}</h2>
