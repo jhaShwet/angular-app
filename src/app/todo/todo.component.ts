@@ -20,4 +20,10 @@ export class TodoComponent implements OnInit {
     sub=()=>{
       this.c=this.a-this.b;
     }
+    div=()=>{
+      this.c=this.a/this.b;
+    }
+    mul=()=>{
+      this.c=this.a*this.b;
+    }
   }
